@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin:0;
+    padding:0;
 }
 
 .header {
@@ -62,16 +64,21 @@ a {
 button {
     height: 30px;
     width: 100px;
+    background-color: #3882f6;
+    color: #e5e7eB;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    border-radius: 10px;
 }
 
-.left button {
+/*.left button {
     background-color: #3882f6;
     color: #e5e7eB;
     font-family: Arial, Helvetica, sans-serif;
     border: 0;
     border-radius: 10px;
 
-}
+}*/
 
 .mainimage {
     height: 300;
@@ -150,6 +157,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px;
 }
 
 
@@ -171,3 +179,49 @@ img {
     width: 800px;
     
 }
+
+.signup {
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.signupbg {
+    background-color: #3882f6;
+    width: 950px;
+    height: 120px;
+    border: white solid 1px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signuptext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    align-items: baseline;
+
+}
+
+.SUmaintext {
+    font-size: 24px;
+    color:#f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SUsubtext {
+    font-size: 18px;
+    color:#f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signupbutton {
+    border: #f9faf8 1.5px solid;
+    border-radius: 8px;
+}
+
+
+
