@@ -69,7 +69,7 @@ a {
 
 }
 
-button {
+.signupbutton {
     height: 30px;
     width: 100px;
     background-color: #3882f6;
@@ -77,15 +77,19 @@ button {
     font-family: Roboto, Helvetica, Sans-serif;
     border: 0;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
 
 }
 
-button:hover {
+.signupbutton:hover {
     background-color: #6aa3ff;
     transition: 0.1s;
 }
 
-button:active {
+.signupbutton:active {
     background-color: #1F2937;
     border: #e5e7eb solid 1px;
 }
@@ -238,7 +242,7 @@ img {
     font-family: Roboto, Helvetica, Sans-serif;
 }
 
-.signupbutton {
+.signupbtnbottom {
     border: #f9faf8 1.5px solid;
     border-radius: 8px;
 }
