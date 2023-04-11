@@ -1,3 +1,5 @@
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -17,19 +19,25 @@ body {
 
 .logo {
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
     color: #f9faf8;
-    font-weight: 700;
+    font-weight: 900;
     margin-right: auto;
-    margin-left: 20px;
+    margin-left: 190px;
 }
+
+.rightlink {
+    margin-right: 190px;
+}
+
 
 .subtext,
 a {
     text-decoration: none;
     color: #e5e7eB;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
+    font-weight: 400;
 }
 
 .sec {
@@ -56,7 +64,7 @@ a {
 .maintext {
     color: #f9faf8;
     font-size: 48px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
     font-weight: 900;
 
 }
@@ -66,15 +74,27 @@ button {
     width: 100px;
     background-color: #3882f6;
     color: #e5e7eB;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
     border: 0;
     border-radius: 10px;
+
 }
+
+button:hover {
+    background-color: #6aa3ff;
+    transition: 0.1s;
+}
+
+button:active {
+    background-color: #1F2937;
+    border: #e5e7eb solid 1px;
+}
+
 
 /*.left button {
     background-color: #3882f6;
     color: #e5e7eB;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
     border: 0;
     border-radius: 10px;
 
@@ -108,7 +128,7 @@ img {
 
 .infotitle {
     margin: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
@@ -117,7 +137,7 @@ img {
 .infocontainer {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 33px;
     align-items: baseline;
 }
 
@@ -131,7 +151,7 @@ img {
 .infotext {
     max-width: 100px;
     color: #1F2937;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
     font-size: 14px;
 }
 
@@ -141,8 +161,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 104px;
-    width: 104px;
+    height: 114px;
+    width: 114px;
     margin: 15px;
     padding: 0px;
     border: #3882f6 3px solid;
@@ -167,16 +187,16 @@ img {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .Author {
     color: #1F2937;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
     font-size: 20px;
     font-weight: 900;
     text-align: right;
-    width: 800px;
+    width: 699px;
     
 }
 
@@ -209,13 +229,13 @@ img {
 .SUmaintext {
     font-size: 24px;
     color:#f9faf8;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
 }
 
 .SUsubtext {
     font-size: 18px;
     color:#e5e7eB;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
 }
 
 .signupbutton {
@@ -234,6 +254,6 @@ img {
 .footertext {
     font-size: 18px;
     color:#e5e7eB;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, Sans-serif;
 }
 
